@@ -3,6 +3,6 @@ export interface User {
   name: string;
 }
 
-export function getUser(id: string): User {
+export function findUser(id: string): User {
   return { id, name: 'Ada' };
 }

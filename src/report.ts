@@ -1,5 +1,5 @@
-import { getUser } from './users.js';
+import { findUser } from './users.js';
 
 export function weeklyReport(id: string): string {
-  return `Report for ${getUser(id).name}`;
+  return `Report for ${findUser(id).name}`;
 }
